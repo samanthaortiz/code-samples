@@ -50,5 +50,4 @@ function mapDispatchToProps(dispatch){
 }
 
 const Master = connect(mapStateToProps, mapDispatchToProps)(App);
-//takes app component and adds all the data from state to props, and action creators to App
 export default Master;
