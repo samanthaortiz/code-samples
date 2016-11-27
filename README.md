@@ -2,7 +2,7 @@
 
 Full Stack Code Samples by Samantha Ortiz - Full Stack Engineer.
 
-*NOTE: This repository is for code demonstration only. This is not a fully functioning appliction, as it contains only portions of the main application.* 
+*NOTE: This repository is for code demonstration only. This is not a fully functioning appliction, as it contains only portions of the original application.* 
 
 ### JS and Frontend
 The frontend and JavaScript folder contains portions of a larger React/Redux application, Here We Go. Below are the files with explainations of their functionalities.
