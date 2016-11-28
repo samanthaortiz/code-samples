@@ -152,7 +152,7 @@ Promise.all([
         status.string('statusType');
         status.timestamps();
       }).then(table => {
-        console.log('Created Table', table);
+        console.log('Created Statuses Table', table);
       });
     }
   }),
