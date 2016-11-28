@@ -1,4 +1,4 @@
-var db = require('./database/db.js');
+var db = require('../fullDBSchema');
 
 module.exports = {
   hotelItin: function(req, res, next){

@@ -1,5 +1,5 @@
 var router = require("express").Router();
-var dbRoutes = require('../dbRoutes');
+var dbRoutes = require('./dbRoutes');
 
 router.post('/hotelItin', dbRoutes.hotelItin, function(req, res, next) {
   res.send(res.data);

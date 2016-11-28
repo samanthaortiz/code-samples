@@ -1,6 +1,6 @@
-var db = require('../db');
-var Status = require('./Status');
-var Type = require('./Type');
+var db = require('../fullDBSchema');
+var Status = require('./StatusModel');
+var Type = require('./TypeModel');
 
 var Hotel = db.Model.extend({
   tableName: 'hotelReservations',

@@ -128,7 +128,6 @@ const Itinerary = React.createClass({
                     key={i}
                     dashboardState={this.props.dashboardState}
                     hotelItinInfo={hotelItin}
-                    tableName=""
                     startDate={this.props.reducerTripData.startDate}
                     endDate={this.props.reducerTripData.endDate}
                   />
