@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 import { Accordion, Panel, Button } from 'react-bootstrap';
-import HotelItin from './HotelItin';
-import FlightItin from './FlightItin';
-import CarItin from './CarItin';
-import ActivityItin from './ActivityItin';
+import HotelItin from './HotelItinComponent';
+import FlightItin from './FlightItinComponent';
+import CarItin from './CarItinComponent';
+import ActivityItin from './ActivityItinComponent';
 
 const Itinerary = React.createClass({
   changeStatusOfItem(){

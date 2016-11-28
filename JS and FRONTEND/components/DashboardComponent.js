@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import NavigationBar from './NavigationBar';
-import Itinerary from './Itinerary';
-import Panel from './Panel';
+import NavigationBar from './NavigationBarComponent';
+import Itinerary from './ItineraryComponent';
+import Panel from './PanelComponent';
 
 const Dashboard = React.createClass({
   getInitialState() {

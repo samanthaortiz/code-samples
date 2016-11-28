@@ -4,16 +4,16 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import { Provider } from 'react-redux';
 import store, { history } from './store';
 
-import Master from './components/Master.js';
-import Splash from './components/Splash.js';
-import Dashboard from './components/Dashboard.js';
-import NavBar from './components/NavigationBar.js';
-import Account from './components/Account.js';
-import Itinerary from './components/Itinerary.js';
-import HotelItin from './components/HotelItin.js';
-import FlightItin from './components/FlightItin.js';
-import CarItin from './components/CarItin.js';
-import ActivityItin from './components/ActivityItin.js';
+import Master from './components/ReactReduxMasterComponent.js';
+import Splash from './components/SplashComponent.js';
+import Dashboard from './components/DashboardComponent.js';
+import NavBar from './components/NavigationBarComponent.js';
+import Account from './components/AccountComponent.js';
+import Itinerary from './components/ItineraryComponent.js';
+import HotelItin from './components/HotelItinComponent.js';
+import FlightItin from './components/FlightItinComponent.js';
+import CarItin from './components/CarItinComponent.js';
+import ActivityItin from './components/ActivityItinComponent.js';
 
 const router = (
   <Provider store={store}>
